@@ -1,5 +1,20 @@
-.App {
-  text-align: center;
+.App-wrapper {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+}
+
+.name {
+  font-size: 3rem;
+  text-shadow: 1px 1px black;
+  margin-left: 8%;
+  font-weight: bold;
+  height: fit-content;
+}
+
+.description {
+  width: 60%;
+  align-items: center;
 }
 
 .App-logo {
